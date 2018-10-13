@@ -82,6 +82,9 @@ const ESC = {
     init(){
         writeHexToDevice(Common.INIT);
     },
+    writeHex(hex){
+        writeHexToDevice(hex);
+    },
     printAndNewLine(){
         writeHexToDevice(Common.PRINT_AND_NEW_LINE);
     },
